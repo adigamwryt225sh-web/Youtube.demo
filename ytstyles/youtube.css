@@ -65,11 +65,13 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         row-gap: 40px;
         column-gap: 16px;
+        background-color: blue;
       }
 
       @media (max-width: 1070px) {
         .video-grid {
         grid-template-columns: 1fr 1fr 1fr;
+        background-color: green;
         }
       }
 
@@ -77,5 +79,8 @@
       @media (max-width: 888px) {
         .video-grid {
           grid-template-columns: 1fr 1fr;
+          background-color: red;
         }
       }
+
+     
